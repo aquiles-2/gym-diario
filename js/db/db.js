@@ -1,5 +1,5 @@
 // Capa de datos. Aislada de la interfaz: la UI solo usa las funciones exportadas.
-export const APP_VERSION = '0.7.0';
+export const APP_VERSION = '0.7.1';
 export const SCHEMA_VERSION = 1;
 const DB_NAME = 'gymdiary', SAFETY_DB = 'gymdiary_safety';
 export const STORES = ['workouts','exercises','routines','measurements','photos','goals','settings','meta'];
