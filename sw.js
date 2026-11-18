@@ -1,5 +1,5 @@
 // Service Worker: solo cachea ARCHIVOS de la app. Nunca toca IndexedDB.
-const VERSION = '0.7.0';
+const VERSION = '0.7.1';
 const CACHE = 'gym-app-' + VERSION;
 const FILES = ['./','index.html','manifest.json','css/app.css','js/app.js','js/db/db.js','js/ui/entrenar.js','js/ui/historial.js','js/logic/workouts.js','js/logic/stats.js','js/ui/progreso.js','js/ui/chart.js','js/ui/rutinas.js','js/ui/timer.js','js/ui/extras.js','js/logic/goals.js','js/logic/routines.js',
   'icons/icon-192.png','icons/icon-512.png','icons/maskable-512.png'];
